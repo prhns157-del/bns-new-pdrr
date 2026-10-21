@@ -1,0 +1,16 @@
+{
+  "name": "bonus-ttk",
+  "version": "1.0.0",
+  "description": "Sistema TikTok Bonus Integrado ao FlevoPay",
+  "main": "api/pix.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "keywords": [
+    "flevopay",
+    "pix",
+    "tiktok-bonus"
+  ],
+  "author": "",
+  "license": "ISC"
+}

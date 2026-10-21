@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/index", "destination": "/index.html" },
+    { "source": "/inicio", "destination": "/inicio.html" },
+    { "source": "/pix", "destination": "/pix.html" },
+    { "source": "/checkf", "destination": "/pix.html" },
+    { "source": "/checkf/:match*", "destination": "/pix.html" },
+    { "source": "/checkf.html", "destination": "/pix.html" },
+    { "source": "/back", "destination": "/inicio.html" },
+    { "source": "/api/pix", "destination": "/api/pix.js" },
+    { "source": "/api/status", "destination": "/api/status.js" },
+    { "source": "/api/track", "destination": "/api/track.js" },
+    { "source": "/api/webhook", "destination": "/api/webhook.js" },
+    { "source": "/api/tt.js", "destination": "/api/tt.js" }
+  ],
+  "functions": {
+    "api/*.js": {
+      "maxDuration": 30
+    }
+  }
+}
